@@ -82,13 +82,6 @@ Use the finalScore function below to do the following:
 */ 
 
 function finalScore(inning, number){
-  let home = 0, away = 0;
-  for (let i = 0; i < number; i++) {
-    away += inning();
-    home += inning();
-  }
-  
-  return home;
 }
 
 /* ⚾️⚾️⚾️ Task 4: getInningScore() ⚾️⚾️⚾️
