@@ -61,6 +61,9 @@ You will be running your tests in one terminal and debugging in the other. As yo
 Edit the `ReadMe` file with your answers to the questions below.
 
 1. In your own words, define closure (1-2 sentences).
+
+closure is a combination of functions enclosed together. Where the inner function has access toits own variables and the variables of its outer function. 
+
 2. Study the following code, then answer the questions below.
 
 ```js
