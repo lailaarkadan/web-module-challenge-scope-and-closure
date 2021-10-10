@@ -29,10 +29,16 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
   
   1. What is the difference between counter1 and counter2?
   
+  Counter1 has a closure while Counter2 refrences a variable outside of its function.
+  
   2. Which of the two uses a closure? How can you tell?
   
+  Counter1 has a closure because its functions encloses inside of one another.
+
   3. In what scenario would the counter1 code be preferable? In what scenario would 
      counter2 be better?  
+
+     
 */
 
 // counter1 code
@@ -167,10 +173,6 @@ if(homeTeams === awayTeams){
 }
 return scoreByInning;
   }
-
-
-
-
 
 
 /* 🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑 */
