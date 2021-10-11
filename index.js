@@ -29,7 +29,7 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
   
   1. What is the difference between counter1 and counter2?
   
-  Counter1 has a closure while Counter2 refrences a variable outside of its function.
+  Counter1 has a closure while Counter2 refrences a variable outside of its scope.
   
   2. Which of the two uses a closure? How can you tell?
   
